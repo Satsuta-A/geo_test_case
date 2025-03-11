@@ -1,0 +1,45 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {"name": "Зона застройки"},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[35, 55], [36, 58], [39, 57], [38, 54], [35, 55]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Лесная зона", "restriction": "no_build"},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[34, 57], [34, 59], [40, 59], [40, 57], [34, 57]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Лесная зона", "restriction": "no_build"},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[34, 53], [34, 55], [40, 55], [40, 53], [34, 53]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Озеро", "restriction": "no_build"},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[[36, 56], [37, 56.5], [38, 56], [37, 55.5], [36, 56]]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Дорога", "restriction": "no_build"},
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [[35, 55], [39, 57]]
+        }
+      }
+    ]
+  }  
